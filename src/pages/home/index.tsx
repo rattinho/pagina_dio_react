@@ -6,6 +6,7 @@ import Header from '../../components/Header'
 import banner from '../../assets/serjao-banner.png'
 
 import {Container, TextContent, Title, TitleHighLight} from './style'
+import React from 'react'
 
 const Home = () => {
 

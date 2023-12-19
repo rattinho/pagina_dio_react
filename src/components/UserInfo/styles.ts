@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { IProgess } from './types'
+
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
@@ -23,7 +25,7 @@ export const NameText = styled.div`
     color: #FFFFFF;
 `
 
-export const Progress = styled.div`
+export const Progress = styled.div<IProgess>`
     width: 180px;
     height: 6px;
     background-color: #FFFFFF;

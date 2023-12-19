@@ -4,6 +4,7 @@ import Home from './pages/home'
 import Login from './pages/login';
 import Feed from './pages/feed'
 import Cadastro from './pages/cadastro';
+import React from 'react';
 
 function RoutesApp(){
     return(

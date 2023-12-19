@@ -15,9 +15,11 @@ import {
     Logo,
     UserPicture
 } from './style'
-import { useNavigate } from 'react-router-dom';
 
-function Header({ autenticado }) {
+import { useNavigate } from 'react-router-dom';
+import { IHeader } from './types';
+
+function Header({ autenticado }: IHeader) {
     
     const navigate = useNavigate();
 
